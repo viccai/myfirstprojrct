@@ -3,6 +3,7 @@ package com.vic;
 import java.io.Console;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.UUID;
 
 import org.castor.util.Base64Decoder;
 import org.castor.util.Base64Encoder;
@@ -63,6 +64,10 @@ public class Test {
         
         System.out.println("str2========Ω‚√‹ ˝æ›========"+str2);
 		
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
+
+        
 	}
 
 }
